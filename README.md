@@ -77,7 +77,7 @@
     - 5 Whys - cause and effect
     - Fishbone diagram 
 
-6. Optimize Organizational Learning
+6. Organizational Learning
     - Creating, retaining, and transferring knowledge within an organization
     - Every problem as an opportunity to build a better organization response
     - Sharing and transparency
