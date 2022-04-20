@@ -5,7 +5,7 @@
 
 1. Perform operations as code
     * Everything as a source code
-    * Compliance, Infrastructure, Delivery Pipeline, Monitoring, Alerting
+    * Compliance, Infrastructure, Delivery Pipeline, Monitoring, Alerting, Playbook
 
 2. Make frequent, small, reversible changes
     * Feature toggles
@@ -15,6 +15,7 @@
 
 3. Refine operations procedures frequently
     * Run regular game days
+    * Keep the playbook up to date
     * Perform chaos engineering experiments
 
 4. Anticipate failure
@@ -30,7 +31,20 @@
 
 ## How to do
 
-1. Troubleshooting
+1. Preparation
+    - Pre-mortam what could go wrong
+    - GamesDay - chaos experiments
+        - active failure vs. team tabletops- simulation 
+        - fresh understanding 
+    - Read and update playbooks
+
+2. Risk Management
+    - Frequent, small, reversible changes
+    - Feature toggling
+    - Blue-green/canary/rolling deployments
+    - Bring high-risk items ahead in the project timeline
+
+3. Troubleshooting
     - Triage first
         - make the system work as well as it can under the circumstances
     - Then Examine
@@ -47,23 +61,7 @@
     - Pitfalls
         - Looking at symptoms that aren’t relevant
         - misunderstanding the meaning of system metric
-
-
-2. Risk Management
-    - Frequent, small, reversible changes
-    - Feature toggling
-    - Blue-green/canary/rolling deployments
-    - Bring high-risk items ahead in the project timeline
-
-
-3. Preparedness
-    - Pre-mortam what could go wrong
-    - GamesDay - chaos experiments
-        - active failure vs. team tabletops- simulation 
-        - fresh understanding 
-    - Playbooks
-    
- 
+     
 4. Event Response
     - A clear and well-defined line of command
     - Delegated roles and responsibilities
@@ -75,12 +73,11 @@
         - all details of an incident
         - every action on debugging and mitigation
 
-
-5. Root Cause
+5. Root Cause Analaysis
     - 5 Whys - cause and effect
     - Fishbone diagram 
 
-6. Organizational Learning
+6. Optimize Organizational Learning
     - Creating, retaining, and transferring knowledge within an organization
     - Every problem as an opportunity to build a better organization response
     - Sharing and transparency
